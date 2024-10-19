@@ -179,3 +179,8 @@ li {
 .nav-bg {
   background-color: rgba(214, 172, 108, 0.397);
 }
+
+.certification-img {
+  width: 100%;
+  height: auto;
+}
