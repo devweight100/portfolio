@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(221, 179, 95);
+  font-family: "Montserrat", sans-serif;
+}
+
+.post-card {
+  background-color: #fff;
+  border: 2px black solid;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0px black;
+  margin: 80px auto;
+  width: 90%;
+  /* height: 500px; */
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding: 50px 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: red; */
+  height: auto;
+  align-items: center;
+}
+.font20 {
+  font-size: 20px;
+}
+
+.width30 {
+  width: 30%;
+  /* background-color: beige; */
+}
+.width40 {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: beige; */
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.left {
+  display: flex;
+  justify-content: left;
+}
+.right {
+  display: flex;
+  justify-content: right;
+}
+.contact-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-btn button {
+  width: 80px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: rgb(238, 159, 5);
+  box-shadow: 1px 2px black;
+}
+
+div span {
+  margin-left: 45px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(238, 159, 5);
+}
+
+.grid-2 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding: 150px 40px;
+  /* background-color: red; */
+}
+.grid-2-aboutme {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  padding: 30px 40px;
+  margin-bottom: 30px;
+  /* background-color: red; */
+}
+
+.font50 {
+  font-size: 50px;
+}
+.font40 {
+  font-size: 40px;
+}
+.font30 {
+  font-size: 30px;
+}
+.font16 {
+  font-size: 16px;
+}
+.btn {
+  height: 50px;
+  width: 140px;
+  border-radius: 4px;
+  margin: 20px 0px;
+  font-weight: bolder;
+  background-color: white;
+
+  box-shadow: 2px 2px;
+}
+
+.work {
+  background-color: rgb(238, 159, 5);
+}
+button:hover {
+  cursor: pointer;
+}
+.margin-left0-right20 {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.margin20 {
+  margin: 20px;
+}
+.margintop50 {
+  margin-top: 50px;
+}
+.bolder {
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.margin10 {
+  margin: 10px;
+}
+div {
+  word-wrap: break-word; /* ให้ข้อความยาวๆ ขึ้นบรรทัดใหม่ */
+  overflow-wrap: break-word; /* ให้การขึ้นบรรทัดใหม่ถ้ามีคำที่ยาวเกินไป */
+}
+
+/* @media (max-width: 600px) {
+  .header {
+    flex-direction: column; 
+  }
+
+  .width30,
+  .width40 {
+    width: 100%; 
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr; 
+  }
+} */
+
+p {
+  padding-left: 20px;
+}
+
+li {
+  padding: 10px;
+}
+
+.nav-bg {
+  background-color: rgba(214, 172, 108, 0.397);
+}
